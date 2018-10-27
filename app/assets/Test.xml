@@ -1,0 +1,28 @@
+<LibData>
+    <Item type="CD" id="15dde">
+        <Artist>Pink Floyd</Artist>
+        <Name>The Wall</Name>
+    </Item>
+    <Item type="DVD" id="52523">
+        <Name>Enter the Dragon</Name>
+    </Item>
+    <Item type="MAGAZINE" id="151e5dde">
+        <Name>Boy's Life</Name>
+        <Volume>6</Volume>
+    </Item>
+    <Item type="BOOK" id="ern222">
+        <Author>William Shakespeare</Author>
+        <Name>The Merchant of Venice</Name>
+    </Item>
+    <Item type="DVD" id="">
+        <Name>Enter the Dragon (invalid id)</Name>
+    </Item>
+
+    <Item type="VHS" id="ern222">
+        <Author>William Shakespeare</Author>
+        <Name>The Merchant of Venice (invalid type)</Name>
+    </Item>
+    <Item type="MAGAZINE" id="151e5dde">
+        <Volume>6</Volume>
+    </Item>
+</LibData>

@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="cheetahs.androidUI.libraryapp.androidUI.FragmentDisplayLibrary">
+
+    <TextView
+        android:id="@+id/textSelectLibrary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_library"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/main_library" />
+
+        <RadioButton
+            android:id="@+id/radioSister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sister_library" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textSelectItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_items"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/chBoxBooks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/books" />
+
+        <CheckBox
+            android:id="@+id/chBoxCDs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cds" />
+
+        <CheckBox
+            android:id="@+id/chBoxDVDs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dvds" />
+
+        <CheckBox
+            android:id="@+id/chBoxMags"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/magazines" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDisplayLibrary"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/displayLibrary" />
+
+    <TextView
+        android:id="@+id/textDisplayLibrary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom" />
+
+</LinearLayout>
